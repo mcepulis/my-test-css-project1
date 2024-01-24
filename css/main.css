@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+  color: wheat;
+  width: 80%;
+  margin: auto;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.column-left {
+    width: 800px;
+    margin-top: 85px;
+
+}
+
+.column-right {
+    margin-bottom: 74px;
+}
+
+.main-nav {
+    margin-right: 94px;
+
+}
+
+.main-nav > a {
+margin-right: 15px;
+color: antiquewhite;
+
+}
+
+.sign {
+    margin-right: 94px;
+}
+
+.sign > p {
+    display: inline;
+}
+
+.test > img {
+    height: 55px;
+    width: 68px;
+}
+
+.socials > a {
+    margin-left: 10px;
+}
