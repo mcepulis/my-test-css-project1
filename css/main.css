@@ -14,19 +14,27 @@ h1 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
-    gap: 40px;
+    justify-content: space-around;
+    gap: 292px;
     margin-bottom: 40px;
 }
 
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
 .column-left {
-    width: 800px;
     margin-top: 85px;
+    margin-right: 115px;
 
 }
 
 .column-right {
     margin-bottom: 74px;
+    margin-right: 178px;
 }
 
 .main-nav {
@@ -41,7 +49,7 @@ color: antiquewhite;
 }
 
 .sign {
-    margin-right: 94px;
+    margin-right: 70px;
 }
 
 .sign > p {
